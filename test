@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title> Hammond Brothers Enterprises </title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background-color: #002244;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background-color: #003366;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: #fff;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: #00ccff;
+    }
+    .hero {
+      background: 
+      background-size: cover;
+      height: 60vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      text-shadow: 1px 1px 3px #000;
+    }
+    .hero h1 {
+      font-size: 3em;
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 20px;
+      border-radius: 10px;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+    .services, .about, .contact {
+      margin-bottom: 40px;
+    }
+    .services h2, .about h2, .contact h2 {
+      color: #002244;
+      text-align: center;
+    }
+    .services-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      gap: 20px;
+    }
+    .service-item {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      width: 300px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    footer {
+      background-color: #002244;
+      color: #ccc;
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Hammond Brothers Enterprises</h1>
+    <p>Delivering Scalable Business Technology And Strategies</p>
+  </header>
+
+  <nav>
+    <a href="#services">Services</a>
+    <a href="#about">About Us</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="hero">
+    <h1>Innovate. Integrate. Elevate.</h1>
+    <video autoplay muted loop playsinline>
+      <source src="Untitled design.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+
+  <section class="services" id="services">
+    <h2>Our Services</h2>
+    <div class="services-list">
+      <div class="service-item">
+        <h3>Business Consulting</h3>
+        <p>We empower startups, small businesses, and growing enterprises to solve problems, improve performance, and unlock new opportunities. Our business consulting services are designed to give you a competitive edge with expert insight, practical strategy, and results-driven execution.</p>
+      </div>
+      <div class="service-item">
+        <h3>Real Estate</h3>
+        <p>We specialize in helping individuals, families, and businesses navigate the world of real estate with confidence. Whether you're buying your first home, investing in rental property, or searching for the perfect commercial space — we're here to guide you every step of the way.
+
+</p>
+      </div>
+      <div class="service-item">
+        <h3>Agriculture & Aquaculture</h3>
+        <p>We are dedicated to advancing sustainable practices in both agriculture and aquaculture — delivering innovative solutions that feed communities, empower farmers, and protect the environment.
+
+</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <h2>About Us</h2>
+    <p style="text-align:center; max-width:700px; margin:auto;">
+      Hammond Brothers Enterprises is a diversified company specializing in business consulting, real estate, and agriculture. We help organizations modernize their IT infrastructure and business processes, offer short-term and long-term property rentals, and produce poultry, seafood, and crops.
+    </p>
+  </section>
+
+  <section class="contact" id="contact">
+    <h2>Contact Us</h2>
+    <p style="text-align:center; max-width:700px; margin:auto;">
+      Email: info@hammondbrothersenterprises.com<br>
+      Phone: (703) 395 -4618<br>
+      
+    </p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Hammond Brothers Enterprises Ghana. All rights reserved.</p>
+  </footer>
+</body>
+</html>
